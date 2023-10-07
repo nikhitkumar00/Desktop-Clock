@@ -1,12 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
-
 * {
 	border: 0px;
 	margin: 0px;
 }
+
+@font-face {
+  font-family: "Rubik";
+  src: url('./asset/Rubik/static/Rubik-Medium.ttf');
+}
+
 section {
-	font-family: "Rubik", sans-serif;
-	font-display: swap;
+	font-family: "Rubik","sans-serif";
 	background-color: black;
 	height: 100vh;
 	width: 100%;
